@@ -1,0 +1,65 @@
+body {
+    background-image: url("../img/bg-image.jpg");
+    background-size: cover;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 120px;
+}
+
+input,
+labels,
+button {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(22, 22, 22);
+    margin-bottom: 60px;
+}
+
+label {
+    color: rgb(33, 33, 33);
+    margin-bottom: 5px;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    // margin-bottom: 25px;
+    box-shadow: inset 10px 10px 22px -21px #000000de, inset -10px -10px 22px -21px #ffffffde;
+}
+
+label,
+input {
+    display: block;
+}
+
+button {
+    border: none;
+    background: #161616;
+    padding: 10px;
+    color: #eeeeee;
+    border-radius: 10px;
+    width: 150px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgb(67, 67, 67);
+    }
+}
+
+.error-message {
+    display: inline-block;
+    padding: 5px 8px;
+    background: #fefe0c;
+    border-radius: 4px;
+    color: #3c3c02;
+    margin-top: 15px;
+}
+
+form {
+    div {
+        margin-bottom: 25px;
+    }
+}
